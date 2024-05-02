@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Ubuntu (confined)
+Comment=This session logs you into Ubuntu
+Exec=/snap/thin-client-session/current/session-wrapper.sh
+TryExec=/snap/thin-client-session/current/session-wrapper.sh
+Type=Application
+DesktopNames=ubuntu:GNOME
+X-GDM-SessionRegisters=true
